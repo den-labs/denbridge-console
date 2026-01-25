@@ -1,0 +1,21 @@
+{
+  "name": "usdcx-payout-engine",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n devnet,web,relayer -c blue,green,magenta \"pnpm devnet\" \"pnpm web\" \"pnpm relayer\"",
+    "devnet": "cd contracts/usdcx-payout-engine && clarinet devnet start",
+    "relayer": "cd apps/relayer && pnpm dev",
+    "web": "cd apps/web && pnpm dev",
+    "build": "cd apps/web && pnpm build",
+    "lint": "cd apps/web && pnpm lint"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "tailwindcss": "^4.1.18"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

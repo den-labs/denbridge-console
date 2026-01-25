@@ -1,0 +1,9 @@
+[submodule "contracts/usdcx-payout-engine"]
+	path = contracts/usdcx-payout-engine
+	url = git@github.com:den-labs/denbridge-contracts.git
+[submodule "apps/relayer"]
+	path = apps/relayer
+	url = git@github.com:den-labs/denbridge-relayer.git
+[submodule "apps/web"]
+	path = apps/web
+	url = git@github.com:den-labs/denbridge-web.git
