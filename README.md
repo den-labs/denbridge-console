@@ -1,3 +1,21 @@
+# DenBridge Console
+
+DenBridge Console is a testnet-first, cross-chain payroll stack that moves USDC from EVM to Stacks and executes batch payouts with real transaction receipts. It’s built for teams that need transparent treasury funding, fast payroll runs, and verifiable on-chain reporting.
+
+## What’s inside (3 projects)
+
+- **Web Console (Next.js)**: the operator dashboard and 3‑stage wizard for wallet setup, funding, and payroll execution.
+- **Relayer (Node)**: a lightweight status service that validates EVM confirmations and detects Stacks USDCx mints via Hiro API, powering real-time progress and receipts.
+- **Contracts (Clarinet)**: batch payout smart contract(s) for Stacks, emitting structured events for receipt parsing.
+
+## Why it matters
+
+- **Cross-chain clarity**: track funding from EVM to Stacks with explicit, verifiable status.
+- **No custody**: transfers are user‑signed; the system doesn’t hold funds.
+- **Operational speed**: upload CSVs, validate, execute, and export receipts in minutes.
+
+---
+
 # USDCx Payout Engine
 
 Batch payouts for grants & payroll on Stacks. Non-custodial, wallet-signed transfers using USDCx (SIP-010).
