@@ -1,5 +1,20 @@
 # DenBridge Console
 
+<!-- denlabs-meta
+name: den-bridge-console
+type: app
+surface: public-console
+status: beta
+owner: Wolfcito
+pm: pnpm
+repo: null
+url: null
+scripts: [dev, build, lint]
+-->
+
+> **DenLabs Lab** · Product · Multi-chain
+> Cross-chain bridge console and batch payroll — moves USDC from EVM to Stacks with verifiable receipts.
+
 DenBridge Console is a testnet-first, cross-chain payroll stack that moves USDC from EVM to Stacks and executes batch payouts with real transaction receipts. It’s built for teams that need transparent treasury funding, fast payroll runs, and verifiable on-chain reporting.
 
 ## What’s inside (3 projects)
